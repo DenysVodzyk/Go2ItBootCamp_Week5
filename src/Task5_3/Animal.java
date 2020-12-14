@@ -38,4 +38,23 @@ public class Animal {
         System.out.println("Communicate.");
     }
 
+    public String getHead() {
+        return head;
+    }
+
+    public String getHurt() {
+        return hurt;
+    }
+
+    public String getLimbs() {
+        return limbs;
+    }
+
+    public int getEyes() {
+        return eyes;
+    }
+
+    public String getMouth() {
+        return mouth;
+    }
 }

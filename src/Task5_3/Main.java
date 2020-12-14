@@ -11,6 +11,9 @@ public class Main {
         dolphin.communicate();
         dolphin.move();
 
+        human.read();
+
+
 
     }
 }

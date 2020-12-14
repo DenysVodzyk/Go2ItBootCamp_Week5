@@ -14,4 +14,9 @@ public class Human extends Mammals {
         super.communicate();
         System.out.println("Communicate using speech.");
     }
+
+    public void read() {
+        System.out.println("Read using " + getEyes() + " eyes.");
+    }
+
 }
