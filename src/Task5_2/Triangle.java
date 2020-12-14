@@ -6,7 +6,12 @@ public class Triangle extends Shape {
     }
 
     //assuming triangle is equilateral
-    public Triangle(double side) {
-        super(side);
+    public Triangle(double sideLengthOrRadius) {
+        super(sideLengthOrRadius);
+    }
+
+    @Override
+    public double calculateArea(double sideLengthOrRadius) {
+        return Math.sqrt(3) / 4 * Math.pow(sideLengthOrRadius, 2);
     }
 }

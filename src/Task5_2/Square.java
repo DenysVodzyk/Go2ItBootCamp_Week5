@@ -5,7 +5,12 @@ public class Square extends Quadrilateral {
     public Square() {
     }
 
-    public Square(double side) {
-        super(side);
+    public Square(double sideLengthOrRadius) {
+        super(sideLengthOrRadius);
+    }
+
+    @Override
+    public double calculateArea(double sideLengthOrRadius) {
+        return Math.pow(sideLengthOrRadius, 2);
     }
 }

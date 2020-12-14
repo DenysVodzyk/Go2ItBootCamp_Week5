@@ -10,4 +10,9 @@ public class Rectangle extends Square {
         super(sideA);
         this.sideB = sideB;
     }
+
+    @Override
+    public double calculateArea(double sideLengthOrRadius) {
+        return sideB * sideLengthOrRadius;
+    }
 }

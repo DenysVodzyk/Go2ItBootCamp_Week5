@@ -5,7 +5,7 @@ public class Quadrilateral extends Shape {
     public Quadrilateral() {
     }
 
-    public Quadrilateral(double side) {
-        super(side);
+    public Quadrilateral(double sideLengthOrRadius) {
+        super(sideLengthOrRadius);
     }
 }
