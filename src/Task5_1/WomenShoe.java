@@ -1,13 +1,13 @@
 package Task5_1;
 
 public class WomenShoe extends AdultShoe {
-    private boolean isPink;
+    private String color;
 
     public WomenShoe(){
     }
 
-    public WomenShoe(int size, String material, boolean isCsaApproved, boolean isPink){
+    public WomenShoe(int size, String material, boolean isCsaApproved, String color){
         super(size, material, isCsaApproved);
-        this.isPink = isPink;
+        this.color = color;
     }
 }
