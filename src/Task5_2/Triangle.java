@@ -11,7 +11,7 @@ public class Triangle extends Shape {
     }
 
     @Override
-    public double calculateArea(double sideLengthOrRadius) {
-        return Math.sqrt(3) / 4 * Math.pow(sideLengthOrRadius, 2);
+    public double calculateArea() {
+        return Math.sqrt(3) / 4 * Math.pow(getSideLengthOrRadius(), 2);
     }
 }

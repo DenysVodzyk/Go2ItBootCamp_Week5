@@ -18,7 +18,7 @@ public class Shape {
         this.sideLengthOrRadius = sideLengthOrRadius;
     }
 
-    public double calculateArea(double sideLengthOrRadius) {
+    public double calculateArea() {
         System.out.println("If the method is not overriden, and the output is 0, area of the shape is too complicated to calculate for this program.");
         return 0;
     }

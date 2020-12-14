@@ -10,7 +10,7 @@ public class Square extends Quadrilateral {
     }
 
     @Override
-    public double calculateArea(double sideLengthOrRadius) {
-        return Math.pow(sideLengthOrRadius, 2);
+    public double calculateArea() {
+        return Math.pow(getSideLengthOrRadius(), 2);
     }
 }
