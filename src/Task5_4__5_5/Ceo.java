@@ -1,13 +1,15 @@
 package Task5_4__5_5;
 
+import java.time.LocalDate;
+
 public class Ceo extends Staff {
     private double budgetToOperate;
 
     public Ceo() {
     }
 
-    public Ceo(String name, String dOB, double salary, double budgetToOperate) {
-        super(name, dOB, "CEO", salary);
+    public Ceo(String name, LocalDate DoB, double salary, double budgetToOperate) {
+        super(name, DoB, "CEO", salary);
         this.budgetToOperate = budgetToOperate;
     }
 

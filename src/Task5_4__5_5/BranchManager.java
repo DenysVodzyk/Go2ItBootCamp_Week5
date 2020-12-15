@@ -1,13 +1,15 @@
 package Task5_4__5_5;
 
+import java.time.LocalDate;
+
 public class BranchManager extends Staff {
     private int amountOfEmployeesAtBranch;
 
     public BranchManager() {
     }
 
-    public BranchManager(String name, String dOB, double salary, int amountOfEmployeesAtBranch) {
-        super(name, dOB, "Client Advisor", salary);
+    public BranchManager(String name, LocalDate DoB, double salary, int amountOfEmployeesAtBranch) {
+        super(name, DoB, "Client Advisor", salary);
         this.amountOfEmployeesAtBranch = amountOfEmployeesAtBranch;
     }
 

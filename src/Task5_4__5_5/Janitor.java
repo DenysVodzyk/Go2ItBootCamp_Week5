@@ -1,13 +1,15 @@
 package Task5_4__5_5;
 
+import java.time.LocalDate;
+
 public class Janitor extends Staff {
     private int amountOfMopsAvailable;
 
     public Janitor() {
     }
 
-    public Janitor(String name, String dOB, double salary, int amountOfMopsAvailable) {
-        super(name, dOB, "Client Advisor", salary);
+    public Janitor(String name, LocalDate DoB, double salary, int amountOfMopsAvailable) {
+        super(name, DoB, "Janitor", salary);
         this.amountOfMopsAvailable = amountOfMopsAvailable;
     }
 

@@ -1,5 +1,7 @@
 package Task5_4__5_5;
 
+import java.time.LocalDate;
+
 public class Staff extends User {
     private double salary;
     private double shiftStart;
@@ -8,8 +10,8 @@ public class Staff extends User {
     public Staff() {
     }
 
-    public Staff(String name, String dOB, String position, double salary) {
-        super(name, dOB, position);
+    public Staff(String name, LocalDate DoB, String position, double salary) {
+        super(name, DoB, position);
         this.salary = salary;
     }
 

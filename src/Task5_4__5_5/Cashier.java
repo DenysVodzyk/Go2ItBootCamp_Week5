@@ -1,14 +1,13 @@
 package Task5_4__5_5;
 
-public class Cashier extends Staff {
-    private double amountOfMoneyInRegister;
+import java.time.LocalDate;
 
+public class Cashier extends Staff {
     public Cashier() {
     }
 
-    public Cashier(String name, String dOB, double salary, double amountOfMoneyInRegister) {
-        super(name, dOB, "Cashier", salary);
-        this.amountOfMoneyInRegister = amountOfMoneyInRegister;
+    public Cashier(String name, LocalDate DoB, double salary) {
+        super(name, DoB, "Cashier", salary);
     }
 
     @Override

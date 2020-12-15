@@ -1,13 +1,15 @@
 package Task5_4__5_5;
 
+import java.time.LocalDate;
+
 public class ClientAdvisor extends Staff {
     private int numberOfClientsToServePerDay;
 
     public ClientAdvisor() {
     }
 
-    public ClientAdvisor(String name, String dOB, double salary, int numberOfClientsToServePerDay) {
-        super(name, dOB, "Client Advisor", salary);
+    public ClientAdvisor(String name, LocalDate DoB, double salary, int numberOfClientsToServePerDay) {
+        super(name, DoB, "Client Advisor", salary);
         this.numberOfClientsToServePerDay = numberOfClientsToServePerDay;
     }
 
